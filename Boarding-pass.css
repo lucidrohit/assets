@@ -1,0 +1,115 @@
+p{
+    font-family: 'heebo';
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.MasterDiv{
+    display: flex;
+    justify-content: center;
+}
+.ticket--outline{
+    width: 23.875rem;
+    height: 38.625rem;
+    border: solid 1px #dadada;
+    border-radius: 14px;
+
+}
+.ticket--img{
+    width: 4.25rem;
+    height: 4.25rem;
+    border-radius: 50%;
+    background-color: grey;
+    margin-left: 1rem;
+    margin-top: 1.3125rem;
+
+}
+.ticket--header{
+    display: flex;
+
+}
+.name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4315rem;
+    line-height: .6875rem;
+    margin-top: 2.125rem;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+}
+.nameEnrolGender{
+    font-family: 'heebo';
+    font-style: normal;
+    font-size: 17.0476px;
+    font-weight: 300;
+    color: #757575;
+    margin-left: 1rem;
+    margin-top: .625rem;
+    
+}
+.dashed--line{
+    margin-top: 1rem;
+    border: 1px dashed rgba(0, 90, 92, 0.2);
+}
+.from--to{
+    display: flex;
+    gap: 5.375rem;
+    justify-content: center;
+    margin-top: 3rem;
+    
+
+}
+.from{
+font-family: 'heebo';
+font-weight: 400;
+font-size: 13.6624px;
+line-height: 17px;
+
+color: #000000;
+}
+.place{
+    font-style: normal;
+font-weight: 700;
+font-size: 22.9047px;
+line-height: 11px;
+color: #2A70FA;
+margin-top: .375rem;
+}
+.place--code{
+    font-style: normal;
+font-weight: 400;
+font-size: 17.0476px;
+margin-top: 0.35rem;
+color: #757575;
+}
+.date--time{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+.seatNo{
+    gap: 100px;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+#qrCode{
+    width: 6.5rem;
+}
+.qr--boardingPass{
+    display: flex;
+    gap: 4.6875rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.boardingPass p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 38.966px;
+color: rgba(153, 153, 153, 0.62);
+
+}
